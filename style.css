@@ -1,0 +1,44 @@
+body{
+    background: url(img/back.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height:600px;
+}
+.dialog{
+    position: absolute;
+    margin-left:570px;
+    margin-top: 180px;
+    width: 400px;
+    height: 400px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background-color: rgba(196, 233, 248, 0.301);
+    
+}
+.dialog:hover{
+    box-shadow:0 0 8px 8px rgba(139, 225, 240, 0.705);
+}
+a{
+    font-size: 18px;
+    text-decoration: none!important;
+}
+.b{
+    color: white;
+    background-color: rgb(245, 38, 107)!important;
+    border-radius: 20px;
+}
+.b:hover{
+    transform: scale(1.03);
+}
+input:hover{
+    background-color: rgba(245, 234, 234, 0.651);
+    transform: scale(1.02);
+}
+img{
+    width:90px;
+    height: 90px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
